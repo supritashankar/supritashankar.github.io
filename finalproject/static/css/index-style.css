@@ -1,12 +1,4 @@
-.loginlogo{
-	float: center;
-}
-
-.appDescription {
-	color: #D3D3D3;
-	font-size: 18px;
- 	text-align: center
-}
+@import 'reset.css';
 
 
 .clear {
@@ -34,9 +26,8 @@ h1 {
 	border-radius:8px;
 	background:white;
 }
-.container {
-	margin-top: 10%;
-}
+
+
 #login-form {
 	width:300px;
 	height: 150px;
@@ -51,7 +42,7 @@ h1 {
 	background: white;
 }
 .form-group input,button {
-	width:96%;
+	width:120%;
 	border:none;
 	padding:5	px;
 }
@@ -63,7 +54,7 @@ h1 {
 	text-align:center;
 }
 .form-group div {
-	width:100%;
+	width:80%;
 	height:50px;
 }
 .form-input {
@@ -78,7 +69,7 @@ input:focus {
 	outline: 0;
 }
 #username{
-	border-bottom:burlywood;
+	border-bottom:burlywood
 	border-style: solid;
 	border-left: none;
 	border-right:none;
@@ -92,9 +83,32 @@ input:focus {
 	margin-top: 10px;
 }
 .form-group button {
-	width:100%;
-	background:cornflowerblue;
+	width:98%;
+	background: #9EDAC1;
 	border:none;
 	border-radius:5px;
 	height:39px	;
 }
+.centerIt{
+    height: 10em;
+    position: relative;
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.appDescription {
+	color: #D3D3D3;
+	font-size: 18px;
+ 	text-align: center
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+
