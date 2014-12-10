@@ -1,0 +1,57 @@
+body{
+	font-family: 'Abel',sans-serif;
+}
+nav {
+	padding-left: 3%;
+	display: inline-block;
+	height:43px;
+	background: rgba(0,139,139,0.8);
+	width:100%;
+	padding-top: 1%;
+	
+}
+
+nav header {
+	display: inline-block;
+	float:left;
+	margin-right:50%;
+	color:white;
+	font-size:2em;
+}
+nav ul {
+	display: inline-block;
+	float:left;
+	width:40%;
+	font-size:1.5em; /* how should the font size be? */
+}
+nav ul li {
+	padding-top: 1%;
+	display: inline-block;
+	margin-right:3%;
+}
+nav ul li a {
+	text-decoration: none;
+}
+.container {
+	margin-top:3%;
+	padding-left: 3%;
+}
+.address-person{
+	font-size:1.5em;
+}
+.intro p {
+	width:350px;
+	font-size: 1.2em;
+	float:left;
+	margin-right: 200px;
+}
+.circle-info {
+	float:left;
+}
+.inside-circle {
+	width:100px;
+	height:100px;
+	display:block;
+	background: darkcyan;
+	border-radius: 50%;
+}
