@@ -12,8 +12,19 @@ body{
 
 h1 {
 	margin: 0 auto;
-	margin-top:20%;
-	margin-left:28%;
+	margin-top:10%;
+	margin-left:38%;
 	font-size:2em;
 	font-weight: bold;
+}
+
+#menu {
+	margin-left:3%;
+	margin-top:5%;
+	font-size: 1.3em;	
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: black;
 }
