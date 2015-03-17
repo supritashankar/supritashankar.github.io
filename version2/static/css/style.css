@@ -30,6 +30,19 @@ a, a:visited {
     color: black;
 }
 
-a:hover{
+a:hover, a:active{
 	color:pink;
-};
+}
+
+section {
+	margin-top:50%;
+}
+
+@media(min-width:768px) {
+}
+
+@media(min-width:992px) {
+}
+
+@media(min-width:1200px) {
+}
