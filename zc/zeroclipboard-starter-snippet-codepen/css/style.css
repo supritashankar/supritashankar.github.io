@@ -1,0 +1,29 @@
+button.clipboard {
+    padding: 3px;
+}
+
+/* FF button fix */
+button.clipboard::-moz-focus-inner {
+    margin: 1px -5px;
+}
+
+#zcState pre {
+    width: 98%;
+    height: 100px;
+    overflow: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    background-color: lightgray;
+    border: 1px solid darkgray;
+    padding: 2px;
+}
+
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 7px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0,0,0,.5);
+    -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+}
