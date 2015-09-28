@@ -1,8 +1,14 @@
 <html>
 	<head>
 		<script src="clip.min.js"></script>
+		<script src="board.js"></script>
 	</head>
 	<body>
-		            <button class="btn" data-clipboard-action="copy" data-clipboard-text="Just because you can doesn't mean you should — clipboard.js">Copy to clipboard</button>
+		<input id="foo" value="https://github.com/zenorocha/clipboard.js.git">
+
+<!-- Trigger -->
+					<button class="btn" data-clipboard-target="foo">
+					    <img src="assets/clippy.svg" alt="Copy to clipboard">
+					</button>
 	</body>
 </html>
