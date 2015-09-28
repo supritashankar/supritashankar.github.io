@@ -8,7 +8,7 @@ function showActive(el) {
 
 var $logger = $("#logger");
 function log(msg) {
-    $logger.prepend("<li>" + msg + "</li>");
+    $logger.prepend("<li>" + msg +  "!!!!</li>");
 }
 
 
