@@ -1,30 +1,4 @@
 //
-// Utility code
-//
-function showActive(el) {
-    var $el = $(el);
-    $el.fadeOut(10, function() { $el.fadeIn(90); });
-}
-
-var $logger = $("#logger");
-function log(msg) {
-    $logger.prepend("<li>" + msg +  "!!!!</li>");
-}
-
-
-//
-// Forcibly remove the JSBin iframe sandboxing with Sandblaster.js
-// https://github.com/JamesMGreene/sandblaster
-//
-var result = sandblaster.detect();
-if (result.framed && result.crossOrigin !== false && result.sandboxed !== false) {
-    $("#warning").html('<p><strong>IMPORTANT:</strong> This CodePen can only work correctly if visiting the result view in the top frame!</p><p>Paste this URL into your browser\'s address bar: <a href="' + window.location.href + '">' + window.location.href + '</a></p>').after("<hr />");
-}
-else if (result.sandboxed && sandblaster.unsandbox()) {
-    sandblaster.reload();
-}
-
-//
 // Begin ZeroClipboard stuff
 //
 ZeroClipboard.config({
