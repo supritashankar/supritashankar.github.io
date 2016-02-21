@@ -43,10 +43,13 @@ body {
 	font-weight:bold;
 }
 .info .links {
-	margin-left:33%;
+	margin-left:30%;
 	margin-top:3%;
 }
 
+.info .links a{
+	padding-right:3px;
+}
 .bio {
 	display: inline-block;
 	max-width: 48%;
