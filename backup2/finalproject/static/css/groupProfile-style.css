@@ -1,0 +1,482 @@
+@import 'reset.css';
+@import 'navbar.css';
+@import 'footer.css';
+
+body {
+	font-family: Abel;
+}
+
+.container {
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+.banner {
+	background: #fff url(../img/groupProfileBanner.jpg) no-repeat bottom;
+}
+
+.left {
+	display: inline-block;
+	max-width: 50%;
+	vertical-align: middle;
+	margin-left: 1px;
+}
+
+.left h1 {
+	font-size: 3.2em;
+	color: #FFF;
+	max-width: 22%;
+	text-align: center;
+	padding: 0 126px;
+	display: block;
+	margin-bottom: 30px;
+}
+
+button {
+	margin: 0 auto;
+	display: block;
+	background-color: transparent;
+	padding: 21px 40px;
+	border: 4px solid #FFF;
+	border-radius: 2px;
+	color: #FFF;
+	font-size: 1.5em;
+}
+
+.banner p {
+	margin-left: 35px;
+	max-width: 36%;
+	display: inline-block;
+	font-size: .9em;
+	line-height: 1.2em;
+	background: rgba(255,255,255, 0.6);
+	vertical-align: middle;
+	padding: 98px 43px;
+}
+
+.contianer div ul {
+	margin: 0 auto;
+	max-width: 85%;
+	padding-left: 43px;
+	border-bottom: 1px solid #3B3B3B;
+}
+
+.container div ul li {
+	display: inline-block;
+	margin: 20px 5px;
+	padding: 10px;
+}
+
+.container div li a {
+	text-decoration: none;
+	color: #3B3B3B;
+	font-size: 1.5em;
+	padding: 10px 15px;
+}
+
+.tabs {
+	margin-top: 30px;
+	max-width: 70%;
+}
+
+.tabs h2 {
+	background: #EA9696;
+	color: #FFF;
+	font-size: 1.3em;
+	width: 160px;
+	padding: 15px;
+	display: inline-block;
+}
+
+h2:first-child {
+	background: #F05251;
+	width: 180px;
+}
+
+.meetups {
+	background: #F05251;
+	max-width: 70%;
+	display: inline-block;
+	margin-bottom: 50px;
+	-webkit-box-shadow: 1px 4px 3px 0px rgba(50, 50, 50, 0.5);
+	-moz-box-shadow:    1px 4px 3px 0px rgba(50, 50, 50, 0.5);
+	box-shadow:         1px 4px 3px 0px rgba(50, 50, 50, 0.5);
+}
+
+section {
+	background: #FFF;
+	margin: 7px;
+	padding: 10px;
+	display: inline-block;
+}
+
+section:nth-child(odd) {
+	max-width: 65%;
+
+}
+
+section h3 {
+	background: #FFF;
+	color: #F05251;
+	font-size: 1.6em;
+	padding: 5px 10px 10px;
+	border-bottom: 2px solid;
+	margin-bottom: 15px;
+	max-width: 75%;
+}
+
+span {
+	font-family: 'PT Sans';
+	font-style: italic;
+	font-size: .5em;
+	margin-left: 21px;
+}
+
+section p {
+	font-family: 'PT Sans';
+	line-height:1.4em;
+}
+
+.abtGroup {
+	display: inline-block;
+	max-width: 28%;
+	float: right;
+}
+
+.abtGroup img {
+	margin: 10px;
+	border-radius: 50%;
+}
+
+section:nth-child(even) {
+	max-width: 24%;
+	float: right;
+	margin-left: 0;
+	padding: 0 14px 9px;
+}
+
+section:nth-child(even) h4{
+	text-align: center;
+	line-height: 1.4em;
+	padding: 21px 0 0;
+}
+
+section:nth-child(even) p{
+	font-size: .8em;
+	padding: 6px 0 26px;
+}
+
+section div h4 {
+	font-weight: 700;
+	font-size: 1.5em;
+}
+
+section div {
+	text-align: center;
+
+}
+
+section div a {
+	text-decoration: none;
+	font-size: .8em;
+	font-family: 'PT Sans';
+	color:#F05251;
+}
+
+.clear {
+	clear: both;
+}
+
+
+.abtGroup {
+	background: #5DB6D1;
+	padding: 26px;
+	text-align: center;
+	-webkit-box-shadow: 1px 4px 3px 0px rgba(50, 50, 50, 0.5);
+	-moz-box-shadow:    1px 4px 3px 0px rgba(50, 50, 50, 0.5);
+	box-shadow:         1px 4px 3px 0px rgba(50, 50, 50, 0.5);
+}
+
+.abtGroup img {
+	border: 9px solid #FFF;
+}
+
+.abtGroup h2 {
+	font-size: 1.5em;
+	font-weight: 700;
+
+}
+
+.abtGroup h2:nth-child(3) {
+	font-size: .9em;
+	padding: 10px;
+}
+
+.abtGroup p {
+	font-family: "PT Sans";
+	font-size:.8em;
+	line-height: 1.4em;
+}
+
+.abtGroup p:nth-child(4) {
+	padding-top: 20px;
+}
+
+.abtGroup p:nth-child(6) {
+	margin-bottom: 20px;
+}
+
+.abtGroup a {
+	color: #FFF;
+}
+
+#footer {s
+	margin:0 auto;
+}
+
+@media (max-width: 904px) {
+
+	.container {
+		max-width: 600px;
+	}
+
+	.left {
+		max-width: 43%;
+	}
+
+	.left h1 {
+		font-size: 2em;
+		padding: 0 69px;
+	}
+
+	button {
+		font-size: 1.2em;
+		padding: 15px 25px;
+	}
+
+	.banner p {
+		text-align: center;
+		max-width: 32%;
+		padding: 53px;
+		margin-left: 39px;
+	}
+
+	div li a {
+		font-size: 1em;
+		padding: 10px 4px;
+	}
+
+	.tabs {
+		margin-top: 30px;
+		max-width: 65%;
+	}
+
+	.tabs h2 {
+		background: #EA9696;
+		color: #FFF;
+		font-size: 1em;
+		width: 78px;
+		padding: 15px;
+		display: inline-block;
+	}
+
+	h2:first-child {
+		background: #F05251;
+		width: 135px;
+	}
+
+	section:nth-child(odd) {
+		max-width: 59%;
+	}
+
+	section h3 {
+		font-size: 1em;
+	}
+
+	span {
+		font-size: .4em;
+		margin-left: 5px;
+	}
+
+	section p {
+		font-size: .8em;
+	}
+
+	section:nth-child(even) {
+		padding: 0 14px 8px;
+	}
+
+	section:nth-child(even) h4 {
+		font-size: 1em;
+		padding: 10px 0 0;
+	}
+
+	section:nth-child(even) p {
+		font-size: .7em;
+	}
+
+	section div h4 {
+		font-size: 1em;
+	}
+
+	.abtGroup {
+		padding: 0;
+	}
+
+	.abtGroup img {
+		width: 100px;
+		height: 100px;
+	}
+	
+	.abtGroup h2 {
+		font-size: 1em;
+	}
+
+	.cal {
+		padding-bottom: 15px;
+	}
+}
+
+
+
+@media (max-width: 600px) {
+	.container {
+		max-width: 400px;
+	}
+
+	.left  {
+		display: block;
+		margin: 0 auto;
+		max-width: 65%;
+		padding:5px 0 30px 0;
+	}
+
+	.left h1 {
+		font-size: 1.5em;
+		margin: 0 auto;
+		padding: 10px 41px;
+		max-width: 37%;
+	}
+
+	.banner p {
+		display: block;
+		max-width: 100%;
+		margin: 0 auto;
+		padding: 30px;
+	}
+
+	.container div ul {
+		padding-left: 0;
+		padding-top: 10px;
+	}
+
+	.container div ul li {
+		margin: 20px 17px;
+	}
+
+	.container div ul li:nth-child(4) {
+		margin-left: 64px;
+	}
+
+	.tabs {
+		max-width: 97%;
+		margin-left: 3px;
+	}
+
+	.tabs h2 {
+		width: 77px;
+	}
+
+	h2:first-child {
+		width: 128px;
+	}
+
+	.meetups {
+		display: block;
+		max-width: 97%;
+		margin-left: 3px;
+		padding-top: 9px;
+	}
+
+	section {
+		display: block;
+		margin-top: 0;
+	}
+	
+	section:nth-child(odd),
+	section:nth-child(even) {
+		max-width: 100%;
+	}
+
+	section:nth-child(even), {
+		width: 346px;
+		width: 98%;
+		margin-top: -3px;
+		margin-left: 7px;
+	}
+
+
+	section:nth-child(3),
+	section:nth-child(5) {
+		margin-top: 98px;	
+	}
+
+	section:nth-child(even) h4 {
+		max-width: 100%;
+		display:block;
+		text-align: center;
+		padding-top: 2px;
+	}
+
+	.address {
+		max-width: 100%;
+		padding: 0 40px;
+	}
+
+	.techshop {
+		display: inline-block;
+		padding-top: 0;
+	}
+
+	section:nth-child(even) p {
+		display: inline-block;
+		padding: 0;
+	}
+
+	section div {
+		max-width: 55%;
+		display: inline-block;
+		float: right;
+		vertical-align: middle;
+	}
+
+
+
+	.abtGroup {
+		display: block;
+		width: 387px;
+		margin-right: 7px;
+		max-width: 100%;
+		margin-bottom: 30px;
+	}
+
+
+	#footer {
+		margin-top: 10%;
+	}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
