@@ -1,7 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b7e98e88-6f3c-4c14-9801-6d22329fbbca" name="Default" comment="" />
+    <list default="true" id="b7e98e88-6f3c-4c14-9801-6d22329fbbca" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_data/projects.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/project_tags.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/share-page.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_layouts/compress.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_layouts/default.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_layouts/page.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_layouts/post.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_layouts/posts_by_category.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_layouts/project.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_layouts/project_single.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2013-12-23-ruby-json.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2013-12-23-welcome-to-simply-grey.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2016-04-19-download-recrusive-files-inside-index-of-in-linux-using-wget.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2016-04-19-email-backend-with-smtp-gmail.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2016-04-19-python-permutations.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2016-04-19-remove-all-files-pyc-with-recrusive-method.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2016-04-19-replace-email-backend-gmail-to-postmarkapp-for-django.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2016-04-19-simple-bash-scripting-for-login-before-open-the-terminal.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2016-04-19-welcome-to-jekyll.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2016-04-20-adding-broadcast-mail-to-all-users-registered-inside-django-admin.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2016-04-20-custom-redirect-urls-django.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2016-04-20-setup-django-in-apache2-raspberry-pi.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2016-04-26-javascript-validator-for-input-number.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2016-05-21-censorthis-censor-the-words-cf.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2016-05-21-notpaired-cf.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2016-05-21-python-crazy-decrypter-has-been-released.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2016-05-21-python-simple-ciphertext.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2016-05-22-reverse-bit-cf.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2016-06-11-find-substrings-for-line-encoding-cf.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2016-06-11-find-the-number-of-even-digits-in-the-given-integer-cf.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2016-06-11-get-month-name-cf.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2016-12-29-top-10-python-libraries-of-2016.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_project/cool-project.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/_base.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/_layout.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/_syntax-highlighting.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/bash/2016/04/19/download-recrusive-files-inside-index-of-in-linux-using-wget.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/bash/2016/04/19/simple-bash-scripting-for-login-before-open-the-terminal.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/django/2016/04/19/replace-email-backend-gmail-to-postmarkapp-for-django.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/django/raspberry/2016/04/20/setup-django-in-apache2-raspberry-pi.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/jekyll/2013/02/19/welcome-to-jekyll.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/jekyll/2013/12/22/welcome-to-simply-grey.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/others/2016/04/25/javascript-validator-for-input-number.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/page/2/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/project/cool-project/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/python/2016/04/19/python-permutations.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/python/bash/2016/04/19/remove-all-files-pyc-with-recrusive-method.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/python/codefights/2016/05/21/censorthis-censor-the-words-cf.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/python/codefights/2016/05/21/notpaired-cf.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/python/codefights/2016/05/21/reverse-bit-cf.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/python/codefights/2016/06/10/find-substrings-for-line-encoding-cf.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/python/codefights/2016/06/10/find-the-number-of-even-digits-in-the-given-integer-cf.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/python/codefights/2016/06/10/get-month-name-cf.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/python/django/2016/04/18/email-backend-with-smtp-gmail.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/python/django/2016/04/19/custom-redirect-urls-django.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/python/django/2016/04/20/adding-broadcast-mail-to-all-users-registered-inside-django-admin.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/python/django/2016/12/29/top-10-python-libraries-of-2016.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/python/security/2016/05/21/python-crazy-decrypter-has-been-released.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/python/security/2016/05/21/python-simple-ciphertext.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/ruby/2013/12/22/ruby-json.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/projects.md" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/about/index.html" afterPath="$PROJECT_DIR$/_site/about/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/category/bash.html" afterPath="$PROJECT_DIR$/_site/category/bash.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/category/codefights.html" afterPath="$PROJECT_DIR$/_site/category/codefights.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/category/django.html" afterPath="$PROJECT_DIR$/_site/category/django.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/category/jekyll.html" afterPath="$PROJECT_DIR$/_site/category/jekyll.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/category/others.html" afterPath="$PROJECT_DIR$/_site/category/others.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/category/python.html" afterPath="$PROJECT_DIR$/_site/category/python.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/category/raspberry.html" afterPath="$PROJECT_DIR$/_site/category/raspberry.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/category/ruby.html" afterPath="$PROJECT_DIR$/_site/category/ruby.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/category/security.html" afterPath="$PROJECT_DIR$/_site/category/security.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/feed.xml" afterPath="$PROJECT_DIR$/_site/feed.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/index.html" afterPath="$PROJECT_DIR$/_site/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/projects/index.html" afterPath="$PROJECT_DIR$/_site/projects/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/sitemap.xml" afterPath="$PROJECT_DIR$/_site/sitemap.xml" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,20 +120,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="projects.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="133">
-                <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bash.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="bash.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/category/bash.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -77,11 +143,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_config.yml">
+      <file leaf-file-name="Gemfile" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/my_project/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="23" column="68" lean-forward="false" selection-start-line="23" selection-start-column="68" selection-end-line="23" selection-end-column="68" />
+            <state relative-caret-position="304">
+              <caret line="16" column="71" lean-forward="false" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="72" />
               <folding />
             </state>
           </provider>
@@ -96,16 +162,6 @@
                 <folding />
               </first_editor>
               <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -136,6 +192,7 @@
         <option value="$PROJECT_DIR$/LICENSE" />
         <option value="$PROJECT_DIR$/about.md" />
         <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/my_project/Gemfile" />
       </list>
     </option>
   </component>
@@ -177,6 +234,11 @@
               <item name="supritashankar.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="supritashankar.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="category" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="supritashankar.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="supritashankar.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="my_project" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="supritashankar.github.io" type="b2602c69:ProjectViewProjectNode" />
@@ -309,12 +371,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554496287999</updated>
-      <workItem from="1554496289579" duration="1616000" />
+      <workItem from="1554496289579" duration="1934000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1616000" />
+    <option name="totallyTimeSpent" value="1934000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="3440" height="1440" extended-state="6" />
@@ -489,14 +551,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sitemap.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -516,14 +570,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="41" lean-forward="false" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/category/bash.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -532,6 +578,30 @@
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="42" lean-forward="false" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sitemap.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_project/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="71" lean-forward="false" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="72" />
+          <folding />
         </state>
       </provider>
     </entry>
