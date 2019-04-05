@@ -5,8 +5,8 @@
     <description>Personal Rambles</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 05 Apr 2019 14:25:58 -0700</pubDate>
-    <lastBuildDate>Fri, 05 Apr 2019 14:25:58 -0700</lastBuildDate>
+    <pubDate>Fri, 05 Apr 2019 14:28:41 -0700</pubDate>
+    <lastBuildDate>Fri, 05 Apr 2019 14:28:41 -0700</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
     
       <item>
@@ -32,6 +32,34 @@
         
         
         <category>my_project</category>
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Welcome to Jekyll!</title>
+        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 05 Apr 2019 14:24:11 -0700</pubDate>
+        <link>http://localhost:4000/jekyll/update/2019/04/05/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll/update/2019/04/05/welcome-to-jekyll.html</guid>
+        
         
         <category>jekyll</category>
         
@@ -554,52 +582,6 @@ x reversed as described above.&lt;/p&gt;
         <pubDate>Sat, 21 May 2016 00:32:04 -0700</pubDate>
         <link>http://localhost:4000/backup3/python/security/2016/05/21/python-simple-ciphertext.html</link>
         <guid isPermaLink="true">http://localhost:4000/backup3/python/security/2016/05/21/python-simple-ciphertext.html</guid>
-        
-        
-        <category>backup3</category>
-        
-        <category>python</category>
-        
-        <category>security</category>
-        
-      </item>
-    
-      <item>
-        <title>Python Crazy Decrypter has been Released</title>
-        <description>&lt;p&gt;Hello gays, this night i want to share my Python Crazy Decrypter tool. Python Crazy Decrypter is real crazy tool to decrypt md5, sha1, sha224, sha256, sha384, and sha512 with Brute Force method. Like most hashes Decrypter we know used the database to check the hash is valid or not.&lt;/p&gt;
-
-&lt;p&gt;This Python Crazy Decrypter tool use the brute force method with complete charachters or with custom charachters choices, and with Hash Type Checker. But, of course it will spend a long time if the result of hash have a very long length, coz this use the brute force method.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Example Usage&lt;/strong&gt;&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ crazy_decrypter -a 2f2ec1296695a9fb3251bbc94a2e0cef -c ichp 4 4
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;Example Proccess&lt;/strong&gt;&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;   *** Please drink your coffee first! ***
-    Python Crazy Decrypter 0.0.4
-
-CTRL+C to Exit!
-Charachters to try : ichp
-Min-length         : 3
-Max-length         : 4
-Type Decrypt found : md5
-Trying with        : iipc - 373fa60ea77f4695bc05fbc1b49d40e3
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;Example Result&lt;/strong&gt;&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Decrypt found : chip
-Type Decrypt  : md5
-End time      : 06:53:06
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;For more you can checkout on our repository: &lt;a href=&quot;https://github.com/agusmakmun/Crazy-Decrypter&quot;&gt;https://github.com/agusmakmun/Crazy-Decrypter&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sat, 21 May 2016 00:25:20 -0700</pubDate>
-        <link>http://localhost:4000/backup3/python/security/2016/05/21/python-crazy-decrypter-has-been-released.html</link>
-        <guid isPermaLink="true">http://localhost:4000/backup3/python/security/2016/05/21/python-crazy-decrypter-has-been-released.html</guid>
         
         
         <category>backup3</category>

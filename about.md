@@ -4,10 +4,15 @@ title: About
 permalink: /about/
 ---
 
-I'm a Software Engineer who is interested in Data, Natural Language Processing and a fan of small things that makes this
+This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
 
-world a better place :)
+You can find the source code for Minima at GitHub:
+[jekyll][jekyll-organization] /
+[minima](https://github.com/jekyll/minima)
 
-During my free time, I like to play squash, chess, ski and learn the uke.
+You can find the source code for Jekyll at GitHub:
+[jekyll][jekyll-organization] /
+[jekyll](https://github.com/jekyll/jekyll)
 
-email: suprita.shankar[at]gmail[dot]com or suprita[at]stanford[dot]edu
+
+[jekyll-organization]: https://github.com/jekyll
