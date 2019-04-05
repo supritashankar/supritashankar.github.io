@@ -1,59 +1,45 @@
-<!DOCTYPE HTML>
-<!--
-	Identity by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Suprita Shankar</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-loading">
+---
+layout: default
+---
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+<div id="home">
+  <h1>{{ site.title }}</h1>
+  <hr />
 
-				<!-- Main -->
-					<section id="main">
-						<header>
-							<span class="avatar"><img src="images/sup.png" style="width:150px;height:200px;" alt="" /></span>
-							<h1>Suprita Shankar</h1>
-							<p>Software Engineer</p>
-						</header>
-						<footer>
-							<ul class="icons">
-								<li><a href="mailto:suprita.shankar@gmail.com" class="fa-envelope">Mail</a></li>
-								<li><a href="https://github.com/supritashankar" class="fa-github">Github</a></li>
-								<li><a href="https://www.linkedin.com/in/suprita-shankar-b9248122" class="fa-linkedin">LinkedIn</a></li>
-							</ul>
-						</footer>
-					</section>
+  <ol class="posts">
+    {% for post in paginator.posts %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a> &raquo; <i><span>{{ post.date | date_to_string }}</span></i></li>
+    {% endfor %}
+  </ol>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<ul class="copyright">
-							<li>&copy; Suprita Shankar</li>
-							<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-						</ul>
-					</footer>
+  <!-- Pagination links -->
+  {% if paginator.total_pages > 1 %}
+    <ul class="pagination pagination-sm">
+      {% if paginator.previous_page %}
+        <li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo;</a></li>
+      {% else %}
+        <li class="disabled"><span aria-hidden="true">&laquo;</span></li>
+      {% endif %}
 
-			</div>
+      <li><a href="/">First</a></li>
 
-		<!-- Scripts -->
-			<!--[if lte IE 8]><script src="assets/js/respond.min.js"></script><![endif]-->
-			<script>
-				if ('addEventListener' in window) {
-					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
-					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
-				}
-			</script>
+      {% for page in (1..paginator.total_pages) %}
+        {% if page == paginator.page %}
+          <li class="active"><a>{{ page }}<span class="sr-only">(current)</span></a></li>
+        {% elsif page == 1 %}
+          <li><a href="/">{{ page }}</a></li>
+        {% else %}
+          <li><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
+        {% endif %}
+      {% endfor %}
 
-	</body>
-</html>
+      <li><a href="/page/{{ paginator.total_pages }}/">Last</a></li>
+
+      {% if paginator.next_page %}
+        <li><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">&raquo;</a></li>
+      {% else %}
+        <li class="disabled"><span>&raquo;</span></li>
+      {% endif %}
+    </ul>
+  {% endif %}
+</div><!-- end #home -->
