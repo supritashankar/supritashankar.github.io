@@ -1,36 +1,56 @@
-# Site settings
-title: A simple Jekyll blog
-description: "Suprita's blog"
-url: "http://supritashankar.github.io"
-author:
-  name: "Suprita Shankar"
-  email: "suprita.shankar@gmail.com"
-  url: "http://supritashankar.github.io"
+title: Suprita's blog
+description: My personal thoughts
+author: Suprita Shankar
+github: https://github.com/supritashankar
+about: Hi! I'm Suprita, a software engineer in the the Bay Area wishing to do good. This website is to share a small insight into me, mainly through my thoughts and works.
+google_analytics: UA-XXXXXXXX-Y
+avatar_url: /static/img/avatar.jpg
 
-# Build settings
-baseurl: /
+enableTags: true
+tagarray: []
+
+collections:
+  project:
+    output: true
+    permalink: /project/:path/
+
+social:
+    - icon: fa-facebook
+      link: "#"
+    - icon: fa-twitter
+      link: "#"
+    - icon: fa-linkedin
+      link: "#"
+    - icon: fa-stack-exchange
+      link: "#"
+    - icon: fa-github
+      link: "https://github.com/supritashankar"
+
+share:
+  twitter_username: github.io
+  fb_appid: 1749788565247320
+
+urls:
+    - text: About Me
+      url: /about/
+    - text: My Projects
+      url: /projects/
+    - text: XML Feed
+      url: /feed.xml
+
+url: "https://supritashankar.github.io"
+baseurl: ""
+paginate: 20
+per_page: 20
+paginate_path: "/page/:num/"
 markdown: kramdown
-source: .
-destination: ./_site
-permalink: /:title
-paginate: 8
-paginate_path: /page:num/
+gems:
+  - jekyll-paginate
+  - jekyll-gist
 
-# Default values
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-
-# Custom variables
-version: "1.1.0"
-
-# Options
-custom_header: false
-custom_nav_footer: false
-reverse: false
-
-theme: jekyll-theme-hacker
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+    envs: ['development']
