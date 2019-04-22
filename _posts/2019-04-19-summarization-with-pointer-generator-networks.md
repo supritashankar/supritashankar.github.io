@@ -10,8 +10,7 @@ Let's briefly look at [Summarization with Pointer-Generator Networks](https://ar
 Specifically, we will be looking at the Coverage mechanism.
 
 
-
-### Summarization with Pointer-Generator Networks 
+Summarization with Pointer-Generator Networks 
 
 Paper aims to solve 2 problems with summarization
 - Produce factual details correctly (do not copy from the text correctly)
